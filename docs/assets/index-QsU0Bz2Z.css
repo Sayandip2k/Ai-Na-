@@ -51,3 +51,7 @@ header nav a:not(:last-child) {
     letter-spacing: 0.04em;
   }
 }
+
+nav a {
+  color: #ffffff !important;
+}
