@@ -51,7 +51,11 @@ header nav a:not(:last-child) {
     letter-spacing: 0.04em;
   }
 }
-
-nav a {
+/* Make only the top navigation links readable */
+.nav__links .nav__link {
   color: #ffffff !important;
+}
+
+.nav--scrolled .nav__links .nav__link {
+  color: #1a1a1a !important;
 }
